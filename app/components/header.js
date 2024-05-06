@@ -7,7 +7,8 @@ const Header = () => {
             <div>
                 <Link href="/">
                     <Image src="/header.svg" width={1330} height={148} alt="header-image" priority/>
-                </Link></div>
+                </Link>
+            </div>
             <nav>
                 <ul>
                     <li><Link href="/user/register">登録</Link></li>
