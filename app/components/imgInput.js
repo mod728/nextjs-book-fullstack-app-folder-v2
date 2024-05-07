@@ -1,7 +1,7 @@
 import { useState } from "react"
 
 const ImgInput = (props) => {
-    const [imageFile, setImageFile ] = useState("")
+    const [imageFile, setImageFile] = useState("")
 
     const handleClick = async() => {
         try{
