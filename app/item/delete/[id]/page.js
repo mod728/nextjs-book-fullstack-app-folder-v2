@@ -57,6 +57,8 @@ const DeleteItem = (context) => {
         if(loginUserEmail === email){ 
             return (
                 <div>
+                    <title>削除ページ</title>     
+                    <meta name="description" content="削除ページです"/>
                     <h1 className="page-title">アイテム削除</h1>
                     <form onSubmit={handleSubmit}>
                         <h2>{title}</h2>
